@@ -19,5 +19,15 @@ User.getUserByID = function (userID, result){
         }
     });
 }
+User.login = function (params, result){   
+        if(params.username == "peter" && params.password == "adminadmin") {
+            result(null, {"access_token":"testabcdefghijklmnopqrstuvwxyz"});
+        }
+        else{
+            var err = "username or password not found";
+            console.log("error: ", err);
+            result(err, null);
+        }
+}
 
 module.exports = User;

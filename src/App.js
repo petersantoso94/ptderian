@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
 
 import ApiHelpers from './utils/ApiHelpers';
-import ClassComponent from './testClassComponent';
+import Home from './pages/Home';
+import Login from './login/Login';
 
 export default class App extends Component {
   constructor(props) {
@@ -17,18 +19,14 @@ export default class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <p>
-            Edit <code>src/App.js</code> and save to reloads.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-          <ClassComponent />
-            Learn React
-          </a>
+          <Router>
+            <Switch>
+              <Route exact path='/' component={Home} />
+              <Route path='/login' component={Login} />
+            </Switch>
+          </Router>
+
+          <ToastContainer hideProgressBar={true} removeCloseButton={true} />
         </header>
       </div>
     );
