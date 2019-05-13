@@ -4,9 +4,7 @@ module.exports = function(app) {
 
   // user Routes
   
-  app.route('/users/:userID')
+  app.route('/users')
   .get(user_controller.get_user_by_id);
 
-  
-  
 };
