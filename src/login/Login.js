@@ -9,17 +9,13 @@ export class Login extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            isAuthentificated: false,
+            isAuthentificated: !window.apiHelpers.isTokenEmpty(),
             errorMessage: '',
             showLoader: false
         };
 
         this.username = null;
         this.password = null;
-    }
-
-    componentDidMount(){
-        this.setState({isAuthentificated: !window.apiHelpers.isTokenEmpty()})
     }
 
     handleSubmit = event => {
