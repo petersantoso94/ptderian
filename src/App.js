@@ -17,8 +17,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
+      <div>
           <Router>
             <Switch>
               <Route exact path='/' component={Home} />
@@ -27,7 +26,6 @@ export default class App extends Component {
           </Router>
 
           <ToastContainer hideProgressBar={true} removeCloseButton={true} />
-        </header>
       </div>
     );
   }
