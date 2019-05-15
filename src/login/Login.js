@@ -29,7 +29,7 @@ export class Login extends Component {
         window.apiHelpers.sendRequest(url, data, 'POST')
             .then(resp => {
                 if (!resp.access_token) {
-                    throw "error";
+                    throw resp;
                 }
                 window.apiHelpers.renewAccessToken(resp.access_token);
                 this.setState({ 'isAuthentificated': true, showLoader: false });

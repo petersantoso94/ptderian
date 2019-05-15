@@ -23,9 +23,7 @@ $(window).on('load', function() {
 
 });
 
-
-(function($) {
-
+document.addEventListener('DOMContentLoaded', (event) => {
 	/*------------------
 		Navigation
 	--------------------*/
@@ -265,8 +263,7 @@ $(window).on('load', function() {
 		fill: "#baff00",
 		emptyFill: "rgba(0, 0, 0, 0)"
 	});
-
-})(jQuery);
+})
 
 
 /*------------------
