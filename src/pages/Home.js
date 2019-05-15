@@ -1,8 +1,14 @@
 import React from 'react';
-import { Redirect } from 'react-router-dom';
 
 import Header from '../components/Header'
-import Hero from '../components/Hero'
+import Footer from '../components/Footer'
+import Hero from '../components/home/Hero'
+import Intro from '../components/home/Intro'
+import Service from '../components/home/Service'
+import Cta from '../components/home/Cta'
+import Projects from '../components/home/Projects'
+import Milestones from '../components/home/Milestones'
+import Clients from '../components/home/Clients'
 
 class Home extends React.Component {
     constructor(props) {
@@ -13,6 +19,13 @@ class Home extends React.Component {
         return (<div>
             <Header />
             <Hero />
+            <Intro />
+            <Service />
+            <Cta />
+            <Projects />
+            <Milestones />
+            <Clients />
+            <Footer />
         </div>);
     }
 }

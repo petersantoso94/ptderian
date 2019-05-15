@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         dots: false,
         animateOut: 'fadeOutRight',
     	animateIn: 'fadeInLeft',
-        navText: ['<i class="fa fa-long-arrow-left"></i> PREV', 'NEXT<i class="fa fa-long-arrow-right"></i>'],
+        navText: ['<i class="fa fa-long-arrow-alt-left"></i> PREV', 'NEXT<i class="fa fa-long-arrow-alt-right"></i>'],
         smartSpeed: 1200,
         autoHeight: false,
         //autoplay: true,
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 		nav: true,
 		loop: true,
 		margin:20,
-		navText: ['<i class="fa fa-long-arrow-left"></i> PREV', 'NEXT<i class="fa fa-long-arrow-right"></i>'],
+		navText: ['<i class="fa fa-long-arrow-alt-left"></i> PREV', 'NEXT<i class="fa fa-long-arrow-alt-right"></i>'],
 		responsive:{
 			0:{
 				items:1,
