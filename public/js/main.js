@@ -13,19 +13,17 @@ var window_w = $(window).innerWidth();
 
 
 $(window).on('load', function() { 
-	/*------------------
-		Preloder
-	--------------------*/
-	$(".loader").fadeOut(); 
-	$("#preloder").delay(400).fadeOut("slow");
-
-	__portfolio(); // call portfolio function
-
+	window.pageLoader();
 });
 
 window.pageLoader = function(){
-	$(".loader").fadeOut(); 
+	$("#preloder").show();
+	$(".loader").show();
+	$(".loader").delay(100).fadeOut("slow");
 	$("#preloder").delay(400).fadeOut("slow");
+	$('a').on('click', function(e) {
+		e.preventDefault();
+	});
 
 	__portfolio(); // call portfolio function
 }

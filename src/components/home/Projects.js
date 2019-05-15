@@ -27,35 +27,35 @@ export default function Projects() {
                         <div className="project-content">
                             <h2>Biggest <br /> Restaurations</h2>
                             <p>Jan 19, 2018</p>
-                            <a href="#" className="seemore">See Project </a>
+                            <a href="a" className="seemore">See Project </a>
                         </div>
                     </div>
                     <div className="single-project set-bg build" data-setbg="img/projects/2.jpg">
                         <div className="project-content">
                             <h2>Office <br /> Building</h2>
                             <p>Jan 19, 2018</p>
-                            <a href="#" className="seemore">See Project </a>
+                            <a href="a" className="seemore">See Project </a>
                         </div>
                     </div>
                     <div className="single-project set-bg apart" data-setbg="img/projects/3.jpg">
                         <div className="project-content">
                             <h2>Nice <br /> Apartments</h2>
                             <p>Jan 19, 2018</p>
-                            <a href="#" className="seemore">See Project </a>
+                            <a href="a" className="seemore">See Project </a>
                         </div>
                     </div>
                     <div className="single-project set-bg rest" data-setbg="img/projects/4.jpg">
                         <div className="project-content">
                             <h2>Biggest <br /> Restaurations</h2>
                             <p>Jan 19, 2018</p>
-                            <a href="#" className="seemore">See Project </a>
+                            <a href="a" className="seemore">See Project </a>
                         </div>
                     </div>
                     <div className="single-project set-bg apart" data-setbg="img/projects/2.jpg">
                         <div className="project-content">
                             <h2>Office <br /> Building</h2>
                             <p>Jan 19, 2018</p>
-                            <a href="#" className="seemore">See Project </a>
+                            <a href="a" className="seemore">See Project </a>
                         </div>
                     </div>
                 </div>

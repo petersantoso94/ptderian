@@ -4,6 +4,9 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import About from './pages/About'
+import Services from './pages/Services'
+import Portofolio from './pages/Portofolio'
+import Contact from './pages/Contact'
 
 class Landing extends React.Component {
     constructor(props) {
@@ -13,7 +16,8 @@ class Landing extends React.Component {
         }
     }
 
-    componentDidUpdate(){
+    componentDidUpdate() {
+        window.pageLoader();
         window.pageFunction();
     }
 
@@ -27,11 +31,20 @@ class Landing extends React.Component {
             case "about":
                 renderContent = <About />;
                 break;
+            case "services":
+                renderContent = <Services />;
+                break;
+            case "portofolio":
+                renderContent = <Portofolio />;
+                break;
+            case "contact":
+                renderContent = <Contact />;
+                break;
             default:
                 renderContent = <Home />;
         }
         return (<div>
-            <Header goToPages={this.goToPages}/>
+            <Header goToPages={this.goToPages} currentPage={this.state.page} />
                 {renderContent}
             <Footer />
         </div>);

@@ -11,7 +11,7 @@ export default function Promo() {
 					<p>Pellentesque lorem dolor, malesuada eget tortor vitae, tristique lacinia lectus. Pellentesque sed accumsan risus.</p>
 				</div>
 				<div className="col-lg-3 text-lg-right">
-					<a href="#" className="site-btn sb-dark mt-4">Get in Touch</a>
+					<a href="a" className="site-btn sb-dark mt-4">Get in Touch</a>
 				</div>
 			</div>
 		</div>

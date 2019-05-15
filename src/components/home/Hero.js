@@ -9,11 +9,11 @@ export default function Hero() {
 				<div className="left-bar">
 					<div className="left-bar-content">
 						<div className="social-links">
-							<a href="#"><i className="fa fa-pinterest"></i></a>
-							<a href="#"><i className="fa fa-linkedin"></i></a>
-							<a href="#"><i className="fa fa-instagram"></i></a>
-							<a href="#"><i className="fa fa-facebook"></i></a>
-							<a href="#"><i className="fa fa-twitter"></i></a>
+							<a href="a"><i className="fa fa-pinterest"></i></a>
+							<a href="a"><i className="fa fa-linkedin"></i></a>
+							<a href="a"><i className="fa fa-instagram"></i></a>
+							<a href="a"><i className="fa fa-facebook"></i></a>
+							<a href="a"><i className="fa fa-twitter"></i></a>
 						</div>
 					</div>
 				</div>
@@ -23,7 +23,7 @@ export default function Hero() {
 						<div className="slide-inner">
 							<div className="slide-content">
 								<h2>Minimalistic <br />Architecture <br /> and more</h2>
-								<a href="#" className="site-btn sb-light">See Project</a>
+								<a href="a" className="site-btn sb-light">See Project</a>
 							</div>
 						</div>
 					</div>
@@ -31,7 +31,7 @@ export default function Hero() {
 						<div className="slide-inner">
 							<div className="slide-content">
 								<h2>Minimalistic <br />Architecture <br /> and more</h2>
-								<a href="#" className="site-btn sb-light">See Project</a>
+								<a href="a" className="site-btn sb-light">See Project</a>
 							</div>
 						</div>
 					</div>

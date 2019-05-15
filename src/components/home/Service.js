@@ -19,7 +19,7 @@ export default function Service() {
 						</div>
 						<h3>Plans and Projects</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
-						<a href="#" className="readmore">READ MORE</a>
+						<a href="a" className="readmore">READ MORE</a>
 					</div>
 				</div>
 				<div className="col-lg-4 col-md-6">
@@ -31,7 +31,7 @@ export default function Service() {
 						</div>
 						<h3>Conceptual Architecture</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
-						<a href="#" className="readmore">READ MORE</a>
+						<a href="a" className="readmore">READ MORE</a>
 					</div>
 				</div>
 				<div className="col-lg-4 col-md-6">
@@ -43,7 +43,7 @@ export default function Service() {
 						</div>
 						<h3>Apartment Buildings</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
-						<a href="#" className="readmore">READ MORE</a>
+						<a href="a" className="readmore">READ MORE</a>
 					</div>
 				</div>
 				<div className="col-lg-4 col-md-6">
@@ -55,7 +55,7 @@ export default function Service() {
 						</div>
 						<h3>Skyscrapers Buildings</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
-						<a href="#" className="readmore">READ MORE</a>
+						<a href="a" className="readmore">READ MORE</a>
 					</div>
 				</div>
 				<div className="col-lg-4 col-md-6">
@@ -67,7 +67,7 @@ export default function Service() {
 						</div>
 						<h3>Documentation</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
-						<a href="#" className="readmore">READ MORE</a>
+						<a href="a" className="readmore">READ MORE</a>
 					</div>
 				</div>
 				<div className="col-lg-4 col-md-6">
@@ -79,7 +79,7 @@ export default function Service() {
 						</div>
 						<h3>Restauration Projects</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
-						<a href="#" className="readmore">READ MORE</a>
+						<a href="a" className="readmore">READ MORE</a>
 					</div>
 				</div>
 			</div>
