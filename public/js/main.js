@@ -23,7 +23,14 @@ $(window).on('load', function() {
 
 });
 
-document.addEventListener('DOMContentLoaded', (event) => {
+window.pageLoader = function(){
+	$(".loader").fadeOut(); 
+	$("#preloder").delay(400).fadeOut("slow");
+
+	__portfolio(); // call portfolio function
+}
+
+window.pageFunction = function (){
 	/*------------------
 		Navigation
 	--------------------*/
@@ -263,6 +270,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
 		fill: "#baff00",
 		emptyFill: "rgba(0, 0, 0, 0)"
 	});
+}
+document.addEventListener('DOMContentLoaded', (event) => {
+	pageFunction();
 })
 
 

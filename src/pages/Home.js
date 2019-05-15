@@ -1,7 +1,5 @@
 import React from 'react';
 
-import Header from '../components/Header'
-import Footer from '../components/Footer'
 import Hero from '../components/home/Hero'
 import Intro from '../components/home/Intro'
 import Service from '../components/home/Service'
@@ -17,7 +15,6 @@ class Home extends React.Component {
 
     render() {
         return (<div>
-            <Header />
             <Hero />
             <Intro />
             <Service />
@@ -25,7 +22,6 @@ class Home extends React.Component {
             <Projects />
             <Milestones />
             <Clients />
-            <Footer />
         </div>);
     }
 }

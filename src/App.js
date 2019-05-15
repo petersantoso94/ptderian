@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 
 import ApiHelpers from './utils/ApiHelpers';
-import Home from './pages/Home';
+import Landing from './Landing';
 import Login from './login/Login';
 
 export default class App extends Component {
@@ -20,7 +20,7 @@ export default class App extends Component {
       <div>
           <Router>
             <Switch>
-              <Route exact path='/' component={Home} />
+              <Route exact path='/' component={Landing} />
               <Route path='/login' component={Login} />
             </Switch>
           </Router>
