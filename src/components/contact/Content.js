@@ -7,16 +7,18 @@ export default function Content() {
             <section className="page-section pt100">
                 <div className="container pb100">
                     <div className="section-title pt-5">
-                        <h1>Get in touch</h1>
+                        <h1>Get in Touch</h1>
                     </div>
                     <div className="row">
                         <div className="col-lg-3 contact-info mb-5 mb-lg-0">
-                            <p>Address: 1481 Creekside Lane Avila Beach, CA 93424 </p>
-                            <p>Phone: +53 345 7953 32453</p>
-                            <p>Email: yourmail@gmail.com</p>
+                            <p>Address: <br />
+                            Jl. Semangka Barat 74 Pondok Tjandra Indah, Waru, Sidoarjo, Pos : 61256 </p>
+                            <p>Line: </p>
+                            <p>Whatsapp: </p>
+                            <p>Phone: </p>
                             <div className="cf-social">
-                                <a href="#"><i className="fa fa-google-plus"></i></a>
-                                <a href="#"><i className="fa fa-pinterest"></i></a>
+                                <a href="#"><i className="fa fa-instagram"></i></a>
+                                <a href="#"><i className="fa fa-linkedin"></i></a>
                                 <a href="#"><i className="fa fa-facebook"></i></a>
                                 <a href="#"><i className="fa fa-twitter"></i></a>
                             </div>
@@ -26,7 +28,7 @@ export default function Content() {
                                 <input type="text" placeholder="Enter your name" />
                                 <input type="text" placeholder="Enter your email address" />
                                 <textarea placeholder="Message ..."></textarea>
-                                <button className="site-btn sb-dark">Send</button>
+                                <button className="site-btn sb-dark">Send Email</button>
                             </form>
                         </div>
                     </div>

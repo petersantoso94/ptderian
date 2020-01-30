@@ -8,7 +8,7 @@ export default function Intro() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8 intro-text">
-                            <h1>We are a creative Architecture<span>Studio</span></h1>
+                            <h1>Tentang <span>Kami</span></h1>
                             <div className="row">
                                 <div className="col-md-6">
                                     <p>Pellentesque lorem dolor, malesuada eget tortor vitae, tristique lacinia lectus. Pellentesque sed accumsan risus, id aliquam nulla. Integer lorem risus, feugiat at mauris malesuada, accumsan pellentesque ipsum. Nunc dapibus, libero ut pulvinar accumsan, tortor nisl iaculis ligula. </p>

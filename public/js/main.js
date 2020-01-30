@@ -58,12 +58,12 @@ window.pageFunction = function (){
         nav: true,
         items: 1,
         dots: false,
-        animateOut: 'fadeOutRight',
-    	animateIn: 'fadeInLeft',
+        animateOut: 'fadeOutLeft',
+    	animateIn: 'fadeInRight',
         navText: ['<i class="fa fa-long-arrow-alt-left"></i> PREV', 'NEXT<i class="fa fa-long-arrow-alt-right"></i>'],
         smartSpeed: 1200,
         autoHeight: false,
-        //autoplay: true,
+        autoplay: true,
         mouseDrag: false,
         onInitialized: function() {
         	var a = this.items().length;

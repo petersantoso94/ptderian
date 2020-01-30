@@ -17,7 +17,7 @@ class About extends React.Component {
             <Intro />
             <Testimonials />
             <Team />
-            <Promo />
+            {/*<Promo />*/}
         </div>);
     }
 }

@@ -10,7 +10,7 @@ export default function Service() {
                         <div className="col-lg-4 col-md-6">
                             <div className="solid-service-box">
                                 <h2>01.</h2>
-                                <h3>The idea</h3>
+                                <h3>Pra-Desain & Konsultasi</h3>
                                 <p>Fusce commodo tincidunt convallis. <br /> Nunc at purus vitae nisl sagittis grav ida ut sit amet diam.</p>
                                 <a href="#" className="readmore">READ MORE</a>
                             </div>
@@ -18,7 +18,7 @@ export default function Service() {
                         <div className="col-lg-4 col-md-6">
                             <div className="solid-service-box">
                                 <h2>02.</h2>
-                                <h3>Behind the work</h3>
+                                <h3>Desain</h3>
                                 <p>Fusce commodo tincidunt convallis. <br /> Nunc at purus vitae nisl sagittis grav ida ut sit amet diam.</p>
                                 <a href="#" className="readmore">READ MORE</a>
                             </div>
@@ -26,7 +26,34 @@ export default function Service() {
                         <div className="col-lg-4 col-md-12">
                             <div className="solid-service-box">
                                 <h2>03.</h2>
-                                <h3>The Success</h3>
+                                <h3>Persiapan Konstruksi</h3>
+                                <p>Fusce commodo tincidunt convallis. <br /> Nunc at purus vitae nisl sagittis grav ida ut sit amet diam.</p>
+                                <a href="#" className="readmore">READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                    <div className="row">
+                        <div className="col-lg-4 col-md-12">
+                            <div className="solid-service-box">
+                                <h2>04.</h2>
+                                <h3>Konstruksi</h3>
+                                <p>Fusce commodo tincidunt convallis. <br /> Nunc at purus vitae nisl sagittis grav ida ut sit amet diam.</p>
+                                <a href="#" className="readmore">READ MORE</a>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-12">
+                            <div className="solid-service-box">
+                                <h2>05.</h2>
+                                <h3>Finishing</h3>
+                                <p>Fusce commodo tincidunt convallis. <br /> Nunc at purus vitae nisl sagittis grav ida ut sit amet diam.</p>
+                                <a href="#" className="readmore">READ MORE</a>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-12">
+                            <div className="solid-service-box">
+                                <h2>06.</h2>
+                                <h3>Pemeliharaan</h3>
                                 <p>Fusce commodo tincidunt convallis. <br /> Nunc at purus vitae nisl sagittis grav ida ut sit amet diam.</p>
                                 <a href="#" className="readmore">READ MORE</a>
                             </div>
@@ -41,81 +68,57 @@ export default function Service() {
             <section className="service-section spad">
                 <div className="container">
                     <div className="section-title">
-                        <h1>Services</h1>
+                        <h1>Layanan</h1>
                     </div>
                     <div className="row">
-                        <div className="col-lg-4 col-md-6">
-                            <div className="service-box">
-                                <div className="sb-icon">
-                                    <div className="sb-img-icon">
-                                        <img src="img/icon/dark/1.png" alt="" />
-                                    </div>
-                                </div>
-                                <h3>Plans and Projects</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
-                                <a href="#" className="readmore">READ MORE</a>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6">
-                            <div className="service-box">
-                                <div className="sb-icon">
-                                    <div className="sb-img-icon">
-                                        <img src="img/icon/dark/2.png" alt="" />
-                                    </div>
-                                </div>
-                                <h3>Conceptual Architecture</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
-                                <a href="#" className="readmore">READ MORE</a>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6">
-                            <div className="service-box">
-                                <div className="sb-icon">
-                                    <div className="sb-img-icon">
-                                        <img src="img/icon/dark/3.png" alt="" />
-                                    </div>
-                                </div>
-                                <h3>Apartment Buildings</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
-                                <a href="#" className="readmore">READ MORE</a>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6">
-                            <div className="service-box">
-                                <div className="sb-icon">
-                                    <div className="sb-img-icon">
-                                        <img src="img/icon/dark/4.png" alt="" />
-                                    </div>
-                                </div>
-                                <h3>Skyscrapers Buildings</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
-                                <a href="#" className="readmore">READ MORE</a>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6">
-                            <div className="service-box">
-                                <div className="sb-icon">
-                                    <div className="sb-img-icon">
-                                        <img src="img/icon/dark/5.png" alt="" />
-                                    </div>
-                                </div>
-                                <h3>Documentation</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
-                                <a href="#" className="readmore">READ MORE</a>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6">
-                            <div className="service-box">
-                                <div className="sb-icon">
-                                    <div className="sb-img-icon">
-                                        <img src="img/icon/dark/6.png" alt="" />
-                                    </div>
-                                </div>
-                                <h3>Restauration Projects</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
-                                <a href="#" className="readmore">READ MORE</a>
-                            </div>
-                        </div>
+				<div className="col-lg-3 col-md-6">
+					<div className="service-box">
+						<div className="sb-icon">
+							<div className="sb-img-icon">
+								<img src="img/icon/dark/Konstruksi.png" alt=""/>
+							</div>
+						</div>
+						<h3>Konstruksi</h3>
+						<p>Mewujudkan rumah impian Anda dengan solusi terbaik.</p>
+						<a href="a" className="readmore">READ MORE</a>
+					</div>
+				</div>
+				<div className="col-lg-3 col-md-6">
+					<div className="service-box">
+						<div className="sb-icon">
+							<div className="sb-img-icon">
+								<img src="img/icon/dark/Renovasi.png" alt=""/>
+							</div>
+						</div>
+						<h3>Renovasi</h3>
+						<p>Membantu Anda dalam renovasi rumah sesuai dengan budget, waktu, dan kualitas yang Anda inginkan.</p>
+						<a href="a" className="readmore">READ MORE</a>
+					</div>
+				</div>
+				<div className="col-lg-3 col-md-6">
+					<div className="service-box">
+						<div className="sb-icon">
+							<div className="sb-img-icon">
+								<img src="img/icon/dark/Interior.png" alt=""/>
+							</div>
+						</div>
+						<h3>Desain Interior</h3>
+						<p>Mewujudkan desain interior terbaik sesuai dengan keinginan dan kebutuhan Anda.</p>
+						<a href="a" className="readmore">READ MORE</a>
+					</div>
+				</div>
+				<div className="col-lg-3 col-md-6">
+					<div className="service-box">
+						<div className="sb-icon">
+							<div className="sb-img-icon">
+								<img src="img/icon/dark/Investasi.png" alt=""/>
+							</div>
+						</div>
+						<h3>Investasi</h3>
+						<p>Membantu Anda berinvestasi secara tepat dengan bantuan kami dalam memilih, membeli, merenovasi, hingga mendapatkan hasil dari investasi Anda.</p>
+						<a href="a" className="readmore">READ MORE</a>
+					</div>
+				</div>
                     </div>
                 </div>
             </section>

@@ -6,7 +6,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Services from './pages/Services'
 import Portofolio from './pages/Portofolio'
-import Contact from './pages/Contact'
+import Contact from './pages/Contact';
 
 class Landing extends React.Component {
     constructor(props) {
@@ -43,10 +43,11 @@ class Landing extends React.Component {
             default:
                 renderContent = <Home />;
         }
-        return (<div>
+        return (
+        <div>
             <Header goToPages={this.goToPages} currentPage={this.state.page} />
-                {renderContent}
-            <Footer />
+            {renderContent}
+            <Footer goToPages={this.goToPages} currentPage={this.state.page} />
         </div>);
     }
 }

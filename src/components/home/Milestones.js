@@ -9,25 +9,25 @@ export default function Milestones() {
                     <div className="row">
                         <div className="col-lg-3 col-md-6">
                             <div className="milestone">
-                                <h2>14</h2>
+                                <h2>1</h2>
                                 <p>Years <br />of <br />Experience</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="milestone">
-                                <h2>237</h2>
+                                <h2>0</h2>
                                 <p>Projects <br />Taken</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="milestone">
-                                <h2>11k</h2>
+                                <h2>0</h2>
                                 <p>Twitter <br />Followers</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="milestone">
-                                <h2>12</h2>
+                                <h2>0</h2>
                                 <p>Awards <br />Won</p>
                             </div>
                         </div>

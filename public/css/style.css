@@ -709,7 +709,7 @@ ol {
 }
 
 .service-box .sb-icon .sb-img-icon img {
-	opacity: 0.2;
+	opacity: 0.8;
 	max-height: 70px;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -1181,6 +1181,7 @@ ol {
 
 .team-member img {
 	min-width: 100%;
+	margin-bottom: 30px;
 }
 
 .team-member .member-info {
@@ -1299,6 +1300,7 @@ ol {
 .solid-service-box {
 	text-align: center;
 	background: #fff;
+	border: 3px solid #000;
 	padding: 50px 30px;
 	-webkit-transition: all 0.4s ease-out 0s;
 	-o-transition: all 0.4s ease-out 0s;

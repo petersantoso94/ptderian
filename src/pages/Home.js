@@ -19,9 +19,9 @@ class Home extends React.Component {
             <Intro />
             <Service />
             <Cta />
-            <Projects />
+            {/*<Projects />
             <Milestones />
-            <Clients />
+            <Clients />*/}
         </div>);
     }
 }

@@ -21,14 +21,20 @@ export default function Intro() {
                             </div>
                         </div>
                         <div className="col-lg-7 service-text">
-                            <h1>We offer top quality project <span>services</span></h1>
-                            <h2>01.Super-fast support.</h2>
-                            <p>Pellentesque lorem dolor, malesuada eget tortor vitae, tristique lacinia lectus. Pellentesque sed accumsan risus, id aliquam nulla. Integer lorem risus, feugiat at mauris malesuada, accumsan pellentesque ipsum. Nunc dapibus, libero ut pulvinar accumsan, tortor nisl iaculis ligula. </p>
-                            <ol>
-                                <li>02.Detailed documentation. </li>
-                                <li>03.Clean code.</li>
-                                <li>04.Great themes.</li>
-                            </ol>
+                            <h1>Alur Pengerjaan<span>Proyek</span></h1>
+                            <h2>01. Pra-Desain & Konsultasi</h2>
+                            <h2>02. Desain</h2>
+                            <h2>03. Persiapan Konstruksi</h2>
+                            <h2>04. Konstruksi</h2>
+                            <h2>05. Finishing</h2>
+                            <h2>06. Pemeliharaan</h2>
+                            {/*<ol>
+                                <li>02.Design. </li>
+                                <li>03.Pre Construction.</li>
+                                <li>04.Construction.</li>
+                                <li>04.Finishing.</li>
+                                <li>04.Maintenance.</li>
+                            </ol>*/}
                         </div>
                     </div>
                 </div>
